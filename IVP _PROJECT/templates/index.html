@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #heading{
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div id="heading">
+        <h1 style="color:red">COMPRESSION OF IMAGE</h1>
+        <img src="decode" alt="">
+    </div>
+    
+    <div id="heading">
+        <form action="/process_url" method="post">
+            <label for="image">Choose an Image:</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+            <button type="submit">Process Image</button>
+        </form>
+    </div>
+    
+</body>
+</html>
