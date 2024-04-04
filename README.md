@@ -1,7 +1,7 @@
 # Image Compression using Huffman Coding
 
 ## Project Overview:
-This projceThis project implements image compression using the Huffman coding technique, aiming to reduce redundant bits in image data while preserving information content and minimizing memory usage. The implementation explores the application of Weber’s Law in quantizing image intensity to optimize compression efficiency. The Python code categorizes pixel intensities into distinct classes based on human perceptual sensitivity, facilitating efficient representation and improved compression ratios.
+This project implements image compression using the Huffman coding technique, aiming to reduce redundant bits in image data while preserving information content and minimizing memory usage. The implementation explores the application of Weber’s Law in quantizing image intensity to optimize compression efficiency. The Python code categorizes pixel intensities into distinct classes based on human perceptual sensitivity, facilitating efficient representation and improved compression ratios.
 
 ## Project Structure:
 - **`compression.py`:** Python script containing the implementation of Huffman coding for image compression.
